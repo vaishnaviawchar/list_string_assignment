@@ -1,0 +1,163 @@
+string="my name is vaishnavi."
+x=string.capitalize()
+
+print(x)
+
+x=string.casefold() 
+
+print(x) 
+
+x=string.center(30)
+print(x)
+
+x=string.count("vaishnavi")
+
+print(x) 
+
+x=string.encode() 
+
+print(x)
+x=string.endswith(".")
+
+print(x)
+
+x=string.find("is")
+
+print(x) 
+
+string1="for only{price:2f} rupees"
+
+print(string1.format(price=20))
+
+x=string.index("vaishnavi")
+
+print(x)
+
+x=string.isalnum()
+
+print(x)
+
+x=string.isalpha()
+
+print(x) 
+
+x=string.isdecimal() 
+
+print(x)
+
+x=string.isdigit() 
+
+print(x)
+
+x=string.isidentifier() 
+
+print(x) 
+
+x=string.islower() 
+
+print(x) 
+
+x=string.isnumeric() 
+
+print(x) 
+
+x = string.isprintable() 
+
+print(x)
+
+x = string.isspace()
+
+print(x) 
+
+x = string.istitle()
+
+print(x)
+
+x = string.isupper()
+
+print(x)
+
+x = "#".join(string)
+
+print(x) 
+
+x = string.ljust(20)
+
+print(x)  
+
+x = string.lower()
+
+print(x) 
+
+x = string.lstrip()
+
+print("hello",x) 
+
+x = string.maketrans("m", "P")
+
+print(string.translate(x)) 
+
+x = string.partition("is")
+
+print(x)  
+
+x = string.replace("vaishnavi", "poonam") 
+
+print(x) 
+
+x = string.rfind("vaishnavi")
+
+print(x)
+
+x = string.rindex("is") 
+
+print(x) 
+
+x= string.rjust(20)
+
+print(x,"i am a student")
+
+x = string.rpartition("name") 
+
+print(x)
+
+x = string.rsplit(", ")
+
+print(x)
+
+x = string.rstrip() 
+
+print("hii",x)
+
+x = string.split() 
+
+print(x)
+
+x = string.splitlines() 
+
+print(x)
+
+x = string.startswith("my") 
+
+print(x)
+
+x = string.strip()
+
+print(x,"i am a student")
+
+x = string.swapcase() 
+
+print(x)
+
+x = string.title() 
+
+print(x)
+
+x = string.upper() 
+
+print(x) 
+
+string2="20"
+x=string2.zfill(10) 
+
+print(x)

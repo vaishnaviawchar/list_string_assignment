@@ -1,0 +1,76 @@
+list=["mango","apple"] 
+
+list.append("cherry") 
+
+print(list) 
+
+#insert method=adds an element at the specified position.
+
+list.insert(2,"grapes") 
+
+print(list) 
+
+#extend method=add the elements of the new list to the end of the current list
+
+list1=["pineapple","banana","kiwi"] 
+list.extend(list1) 
+
+print(list)
+ 
+#remove method=removes the iem wih specified value
+
+list.remove("apple") 
+
+print(list) 
+
+#pop method=removes the specified index
+
+list.pop(1)
+
+print(list) 
+
+#del method=removes the specified index
+
+del list[1] 
+
+print(list) 
+
+#copy method=Make a copy of a list
+
+mylist=list.copy()
+ 
+print(mylist)
+
+#sort method=Sort the list alphabetically
+
+list.sort()
+
+print(list)
+
+list.sort(reverse=True) 
+
+print(list)
+ 
+#count method= Returns the number of elements with the specified value
+
+x=list.count("banana") 
+
+print(x) 
+ 
+#index method=Returns the index of the first element with the specified value
+
+x=list.index("banana")
+
+print(x)  
+
+#reverse method=Reverses the order of the list
+
+list.reverse() 
+
+print(list)
+ 
+#clear method=Removes all the elements from the list
+
+list.clear()
+ 
+print(list)
